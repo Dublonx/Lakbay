@@ -5,3 +5,7 @@ Every destination has a soul waiting to be discovered. At Lakbay, we are more th
 ## About us
 
 Lakbay is a Filipino-owned travel agency specializing in curated travel experiences across the Philippines and beyond. We handle every detail so all you have to do is enjoy the journey.
+
+## Author
+
+Developed by: Jm Dūblon
