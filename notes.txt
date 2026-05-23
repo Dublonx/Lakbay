@@ -1,0 +1,146 @@
+Lakbay — Travel Tour Website
+
+> Navigation
+
+ - Logo
+ - Links (Hero, About, Destinations, Packages, Why Choose Us, Gallery, Testimonials, and Contact)
+ - Button (Book Now)
+
+> Hero Section
+
+ - Label: Your Trusted Travel Partner
+ - Headline: Discover the world, one journey at a time!
+ - Subheadline: From the pristine beaches of Palawan to the breathtaking peaks of Batanes — let Lakbay turn your dream destinations into unforgettable realities.
+ - Button: (Explore Destinations & Learn More)
+ - Hero Background Video
+ 
+> About Us Section
+
+ - Label: Who We Are
+ - Headline: Born from wanderlust, Built for explorers
+ - Subheadline: Lakbay is a Filipino-owned travel agency dedicated to crafting meaningful travel experiences for every kind of explorer. We handle every detail — from flights and accommodations to itineraries and transfers — so all you have to do is show up and enjoy the adventure.
+ - Stats:
+  • 500+ Happy Travelers
+  • 50+ Destinations
+  • 10+ Years Experience
+  • 100% Satisfaction Rates
+  
+> Destinations Section
+
+ - Label: Top Destinations
+ - Headline: Where Do You Want To Go?
+ - Subheadline: Explore our handpicked destinations — each one carefully selected for its beauty, culture, and unforgettable experiences.
+ - Cards: (Image before texts)
+  • Palawan, Philippines
+   × The Last Frontier
+   × Starting at Php: 4,999 / person
+  • Batanes, Philippines
+   × Where Heaven Meets Earth
+   × Starting at Php: 8,999 / person
+  • Siargao, Philippines
+   × The Surfing Capital
+   × Starting at Php: 5,499 / person
+  • Bohol, Philipppines
+   × Nature's Masterpiece
+   × Starting at Php: 4,499 / person
+  • Cebu, Philippines
+   × Queen City of the South
+   × Starting at Php: 3,999 / person
+  • Boracay, Philippines
+   × Paradise of the Philippines
+   × Starting at Php: 5,999 / person
+   
+> Packages Section
+
+ - Label: Travel Packages
+ - Headline: Find The Perfect Package For You
+ - Subheadline: Whether you're traveling solo, with your partner, or with the whole family — we have a package designed just for you.
+ - Cards:
+  • Box 1
+   × Island Escape
+   × Palawan | 3D2N
+   × Airfare, Hotel, Island Hopping
+   × Php: 7,999 / person
+  • Box 2
+   × Honeymoon Paradise
+   × Boracay | 5D4N
+   × Airfare, Resort, Romantic Dinner
+   × Php: 14,999 / couple
+  • Box 3
+   × Adventure Seeker
+   × Siargao | 4D3N
+   × Airfare, Surf Lessons, Island Tour
+   × Php: 9,999 / person
+  • Box 4
+   × Family Fun
+   × Cebu | 4D3N
+   × Airfare, Family Room, City Tour
+   × Php: 6,999 / person
+   
+> Why Choose Us Section
+
+ - Label: Why Lakbay
+ - Headline: Travel with Confidence, Travel with Lakbay
+ - Cards:
+  • Box 1
+   × Trusted Agency
+   × Trusted by thousands of Filipino travelers. Your safety and satisfaction is our top priority.
+  • Box 2
+   × Best Price Guarantee
+   × The most competitive travel packages without compromising quality. Best value for your money.
+  • Box 3
+   × Expert Travel Guides
+   × Experienced travel experts always ready to help you plan the perfect itinerary for any destination.
+  • Box 4
+   × 24/7 Customer Support
+   × Always here for you — before, during, and after your trip. Your peace of mind is our priority.
+   
+> Gallery Section
+
+ - Label: Travel Gallery
+ - Headline: Moments Worth Remembering
+ - Subheadline: A glimpse of the beautiful destinations and unforgettable experiences waiting for you.
+ - Gellery Grid
+  × Left: 2 (4x4)
+  × Right: 3 (1x1)
+  
+> Testimonials Section
+
+ - Label: Travelers Stories
+ - Headline: What Our Traveler Says
+ - Subheadline: Hear it from the thousands of happy travelers who trusted Lakbay for their adventures.
+ - Reviews:
+  • Lakbay made our Palawan trip absolutely perfect. Every detail was taken care of. Highly recommended! — Maria Santos, Manila
+  • Our Cebu honeymoon was a dream come true thanks to Lakbay. The resort was stunning and the service was exceptional. — Juan & Ana Reyes, Cebu
+  • Sobrang ganda ng Siargao trip namin! Lakbay ang nag-handle ng lahat at walang aberya. Booking again soon! — Carlo Mendoza, Davao
+  
+> Contact Section
+
+ - Label: Get In Touch
+ - Headline: Ready to Start Your Adventure?
+ - Subheadline: Fill out the form below and our travel experts will get back to you within 24 hours.
+ - Contact Details:
+  • 123 Lakbay Street, Manila, Philippines
+  • +63-123-456-7890
+  • lakbayph@gmail.com
+  • Mon - Sat | 8:00 am to 5:00 pm
+  
+> Footer
+
+ - Label: Your Journey Begins With Lakbay
+ - About Blurb: A Filipino-owned travel agency dedicated to crafting unforgettable travel experiences across the Philippines and beyond.
+ - Quick Links:
+  • Home
+  • About
+  • Destinations
+  • Packages
+  • Gallery
+  • Testimonials
+  • Contacts
+ - Social Media:
+  • Facebook
+  • Instagram
+  • Twitter
+  • YouTube
+ - Copyright:
+  • © 2026 Lakbay Travels & Tours. All Right Reserved!
