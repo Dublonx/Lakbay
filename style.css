@@ -847,13 +847,11 @@ section {
         visibility: hidden;
         opacity: 0;
         transition: .5s ease-in-out;
-        backdrop-filter: blur(16px);
     }
 
     .n-grp #nav.active {
         visibility: visible;
         opacity: 1;
-        backdrop-filter: blur(16px);
     }
 }
 
