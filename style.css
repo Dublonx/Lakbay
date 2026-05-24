@@ -847,11 +847,13 @@ section {
         visibility: hidden;
         opacity: 0;
         transition: .5s ease-in-out;
+        backdrop-filter: blur(16px);
     }
 
     .n-grp #nav.active {
         visibility: visible;
         opacity: 1;
+        backdrop-filter: blur(16px);
     }
 }
 
@@ -974,3 +976,90 @@ section {
 }
 
 /* mobile */
+@media (max-width: 420px) {
+    /* hero */
+    .hero-content {
+        width: 100%;
+    }
+
+    .h-headline {
+        font-size: var(--sz-headline-s);
+    }
+
+    .h-actions {
+        flex-direction: column;
+    }
+
+    .h-cta {
+        width: 100%;
+    }
+
+    /* about */
+    .a-stats {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .a-headline {
+        font-size: var(--sz-headline-s);
+    }
+
+    /* destinations */
+    .d-headline {
+        font-size: var(--sz-headline-s);
+    }
+
+    .d-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* packages */
+    .p-headline {
+        font-size: var(--sz-headline-s);
+    }
+
+    .p-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* why choose us */
+    .c-headline {
+        font-size: var(--sz-headline-s);
+    }
+
+    .c-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* gallery */
+    .g-headline {
+        font-size: var(--sz-headline-s);
+    }
+
+    .g-gallery {
+        grid-template-areas: 
+        "one"
+        "two"
+        "three"
+        "four"
+        "five";
+    }
+
+    /* testimonials */
+    .t-headline {
+        font-size: var(--sz-headline-s);
+    }
+
+    .t-reviews {
+        grid-template-columns: 1fr;
+    }
+
+    /* contact */
+    .cn-headline {
+        font-size: var(--sz-headline-s);
+    }
+
+    .cn-details {
+        grid-template-columns: 1fr;
+    }
+}
