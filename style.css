@@ -15,6 +15,13 @@ body {
  background-color: var(--c-background-even);
 }
 
+/* all updates */
+
+/* if active - no scroll if inactive - yes scroll */
+.no-scroll {
+    overflow: hidden;
+}
+
 /* variables */
 :root {
  /* colors */

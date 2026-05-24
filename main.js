@@ -13,13 +13,8 @@ menu.addEventListener("click", () => {
         menu.className = "fa-solid fa-bars";
     }
     
-    // active - no scroll
-    // inactive - yes scroll
-    if (nav.classList.contains("active")) {
-        body.style.overflow = "hidden";
-    } else {
-        body.style.overflow = "";
-    }
+    // if active - no scroll
+    body.classList.toggle("no-scroll");
 });
 
 // close navbar
@@ -30,5 +25,8 @@ links.forEach(link => {
         nav.classList.remove("active");
 
         menu.className = "fa-solid fa-bars";
+        
+        // if inactive - removed overflow
+        body.classList.remove("no-scroll");
     });
 });
