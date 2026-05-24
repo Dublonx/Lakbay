@@ -21,10 +21,9 @@ body {
  --c-background-even: hsl(60, 100%, 100%);
  --c-background-odd: hsl(0, 0%, 95%);
  --c-headline: hsl(205, 84%, 22%);
- --c-paragraph: hsl(212, 13%, 43%);
  --c-button: hsl(206, 97%, 61%);
  --c-button-text: hsl(60, 100%, 100%);
- --c-navbar: rgba(0, 0, 0, .75);
+ --c-navbar: rgba(0, 0, 0, .9);
  /* fonts */
  --ff-headline: "Montserrat", sans-serif;
  --ff-paragraph: "Poppins", sans-serif;
@@ -816,7 +815,7 @@ section {
     padding-top: 24px;
 }
 
-/* functionality fpr navbar */
+/* functionality for navbar */
 @media (max-width: 1024px) {
     /* navigation */
     .n-grp {
@@ -826,7 +825,7 @@ section {
     .n-link ul {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem;
         padding: 2rem 0;
     }
 
