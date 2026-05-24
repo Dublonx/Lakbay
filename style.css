@@ -801,11 +801,14 @@ section {
 
 /* footer */
 .main-footer {
+    background-color: var(--c-background-odd);
+    padding: 32px 0 0 0;
+}
+
+.f-grp {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
-    background-color: var(--c-background-odd);
-    padding: 32px 0 24px 0;
+    justify-content: center;
 }
 
 .f-content {
@@ -862,6 +865,24 @@ section {
 
 .f-text:hover {
     transform: translateX(4px);
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.f-copyright {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.f-last {
+    font-family: var(--ff-paragraph);
+    font-size: var(--sz-paragraph-n);
+    font-weight: 500;
+    color: #000;
 }
 
 /* tablet */
