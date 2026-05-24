@@ -885,5 +885,44 @@ hr {
     color: #000;
 }
 
+/* tablet and mobile — navbar */
+@media (max-width: 1024px) {
+    /* navigation */
+    .n-grp {
+        position: relative;
+    }
+
+    .n-link ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 0;
+    }
+
+    #menu {
+        display: block;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .n-grp #nav {
+        position: absolute;
+        z-index: 99;
+        top: calc(100% + 16px);
+        left: 0;
+        width: 100%;
+        background-color: var(--c-navbar);
+        border-radius: 32px;
+        visibility: hidden;
+        opacity: 0;
+        transition: .5s ease-in-out;
+    }
+
+    .n-grp #nav.active {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
 /* tablet */
 /* mobile */
