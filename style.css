@@ -251,15 +251,15 @@ section {
     margin-top: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 3rem;
-    max-width: 900px;
 }
 
 .a-stats {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    width: 100%;
 }
 
 .a-box {
@@ -288,6 +288,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    max-width: 600px;
 }
 
 .a-headline {
