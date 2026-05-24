@@ -1,6 +1,7 @@
 // Lakbay
 const menu = document.querySelector('#menu');
 const nav = document.querySelector('#nav');
+const body = document.body;
 
 menu.addEventListener("click", () => {
     nav.classList.toggle("active");
@@ -10,6 +11,14 @@ menu.addEventListener("click", () => {
         menu.className = "fa-solid fa-xmark";
     } else {
         menu.className = "fa-solid fa-bars";
+    }
+    
+    // active - no scroll
+    // inactive - yes scroll
+    if (nav.classList.contains("active")) {
+        body.style.overflow = "hidden";
+    } else {
+        body.style.overflow = "";
     }
 });
 
