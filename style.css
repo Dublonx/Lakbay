@@ -23,6 +23,37 @@ body {
     overflow: hidden;
 }
 
+/* back to top */
+.top-cta {
+    position: fixed;
+    z-index: 1;
+    bottom: 40px;
+    right: 40px;
+    outline: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--c-button);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.top-cta:hover {
+    transform: translateY(-8px);
+}
+
+.top-cta.show {
+    visibility: visible;
+    opacity: 1;
+}
+
 /* variables */
 :root {
  /* colors */
