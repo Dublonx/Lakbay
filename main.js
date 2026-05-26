@@ -30,3 +30,6 @@ links.forEach(link => {
         body.classList.remove("no-scroll");
     });
 });
+
+// AOS scroll animation
+AOS.init();
