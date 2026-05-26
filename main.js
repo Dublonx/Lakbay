@@ -33,3 +33,22 @@ links.forEach(link => {
 
 // AOS scroll animation
 AOS.init();
+
+// back to top
+const topCta = document.querySelector('#tCta');
+
+window.addEventListener("scroll", () => {
+    // if
+    if (window.scrollY > 300) {
+        topCta.classList.add("show");
+    } else {
+        topCta.classList.remove("show");
+    }
+});
+
+topCta.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
