@@ -814,6 +814,7 @@ section {
 
 .f-copyright {
     text-align: center;
+    margin-bottom: 0;
 }
 
 .f-last {
@@ -821,7 +822,7 @@ section {
     font-size: var(--sz-paragraph-n);
     font-weight: 500;
     color: #000;
-    padding-top: 24px;
+    padding: 24px 0;
 }
 
 /* functionality for navbar */
