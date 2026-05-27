@@ -897,11 +897,6 @@ section {
 
 /* tablet */
 @media (max-width: 1024px) {
-    /* section */
-    sectiion {
-        padding: 80px 0;
-    }
-
     /* hero */
     .h-label {
         font-size: var(--sz-paragraph-s);
@@ -1020,11 +1015,6 @@ section {
 
 /* mobile */
 @media (max-width: 420px) {
-    /* section */
-    section {
-        padding: 60px 0;
-    }
-
     /* hero */
     .hero-content {
         width: 100%;
