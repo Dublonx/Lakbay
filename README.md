@@ -25,3 +25,28 @@ Every destination has a soul waiting to be discovered. At Lakbay, we are more th
 - CSS3
 - JavaScript
 - AOS Animation
+
+## Project Structure
+
+```
+Lakbay/
+├── Assets/
+│   ├── Images/
+│   └── Screenshots/
+├── .nojekyll
+├── index.html
+├── main.js
+├── notes.txt
+├── README.md
+├── style.css
+```
+
+## Author
+
+Name: **Jm Dūblon**
+
+Github: [@Dublonx](https://github.com/Dublonx)
+
+---
+
+⭐ Leave a star if you like this project!
