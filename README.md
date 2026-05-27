@@ -8,5 +8,20 @@ Every destination has a soul waiting to be discovered. At Lakbay, we are more th
 
 ## Features
 
-- Hero with a background video
-- 
+- 📽️ Hero section with a background video
+- ✈️ Featured Destinations
+- 📦 Travel Packages
+- 🌟 Why choose us section
+- 📸 Gallery Section
+- ⭐ Testimonials
+- 📞 Contact form
+- 📱 Fully responsive design
+- 🔝 Back to top button
+- ✨ AOS scroll animations
+
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript
+- AOS Animation
