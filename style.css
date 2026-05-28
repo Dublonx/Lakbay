@@ -226,10 +226,14 @@ section {
 
 .h-label {
     font-family: var(--ff-paragraph);
-    font-size: var(--sz-paragraph-n);
+    font-size: var(--sz-paragraph-s);
     font-weight: 500;
     text-transform: uppercase;
     color: var(--c-button);
+    border: 1px solid var(--c-button);
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
 }
 
 .h-headline {
