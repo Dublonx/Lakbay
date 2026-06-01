@@ -52,3 +52,16 @@ topCta.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+// booking page
+const bookCta = document.querySelector('#bookCta');
+const booking = document.querySelector('#popupBooking');
+const bookXmark = document.querySelector('.close');
+
+bookCta.addEventListener("click", () => {
+    booking.classList.add("popup");
+});
+
+bookXmark.addEventListener("click", () => {
+    booking.classList.remove("popup");
+});

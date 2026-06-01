@@ -73,6 +73,7 @@ body {
     gap: 1.5rem;
     visibility: hidden;
     opacity: 0;
+    transition: .5s ease-in-out;
 }
 
 .booking-page.popup {
@@ -80,10 +81,9 @@ body {
     opacity: 1;
 }
 
-.booking-page .xmark {
+.booking-page .close {
     display: block;
     margin-left: auto;
-    color: #fff;
     cursor: pointer;
 }
 
