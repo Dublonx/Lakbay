@@ -357,7 +357,35 @@
 		</footer>
 
 		<!-- back to top  -->
-		<button class="top-cta" id="tCta"><i class="fa-solid fa-arrow-up"></i></button>
+		<button class="top-cta" id="tCta"><i class="fa-solid fa-arrow-up xmark"></i></button>
+		
+		<!-- booking page -->
+		<div class="booking-page" id="popupBooking">
+			<i class="fa-solid fa-xmark"></i>
+			
+			<h2 class="b-title">Booking Page!</h2>
+			
+			<form action="#">
+				<div class="form-select">
+					<label for="destinations">Destinations</label>
+					<select name="destinations" id="destinations">
+						<option value="" disabled selected hidden></option>
+						<option value="palawan">Palawan</option>
+						<option value="batanes">Batanes</option>
+						<option value="siargao">Siargao</option>
+						<option value="bohol">Bohol</option>
+						<option value="cebu">Cebu</option>
+						<option value="boracay">Boracay</option>
+					</select>
+				</div>
+				<div class="form-details">
+					<label for="date">Date</label>
+					<input type="date" id="date" name="trip-start">
+				</div>
+				
+				<button type="button" class="form-cta" id="formCta">Book Now <i class="fa-solid fa-arrow-right"></i></button>
+			</form>
+		</div>
 	</main>
  
  <!-- javascript -->

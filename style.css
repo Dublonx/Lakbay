@@ -54,6 +54,99 @@ body {
     opacity: 1;
 }
 
+/* booking page */
+.booking-page {
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #222;
+    border-radius: 4px;
+    background-color: var(--c-background-even);
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.booking-page.popup {
+    visibility: visible;
+    opacity: 1;
+}
+
+.booking-page .xmark {
+    display: block;
+    margin-left: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+.b-title {
+    font-family: var(--ff-headline);
+    font-size: var(--sz-headline-s);
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-select label {
+    display: block;
+    font-family: var(--ff-headline);
+    font-size: var(--sz-paragraph-n);
+    font-weight: 500;
+    color: #222;
+}
+
+.form-select #destinations {
+    margin-top: 8px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+
+.form-details label {
+    display: block;
+    font-family: var(--ff-headline);
+    font-size: var(--sz-paragraph-n);
+    font-weight: 500;
+    color: #222;
+}
+
+.form-details #date {
+    margin-top: 8px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-cta {
+    margin-top: 24px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--c-button);
+    color: whitesmoke;
+}
+
 /* variables */
 :root {
  /* colors */
