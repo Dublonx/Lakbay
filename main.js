@@ -60,8 +60,14 @@ const bookXmark = document.querySelector('.close');
 
 bookCta.addEventListener("click", () => {
     booking.classList.add("popup");
+    
+    // if active - no scroll
+    body.classList.add("no-scroll");
 });
 
 bookXmark.addEventListener("click", () => {
     booking.classList.remove("popup");
+    
+    // if active - no scroll
+    body.classList.remove("no-scroll");
 });
