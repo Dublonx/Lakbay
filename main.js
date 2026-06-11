@@ -71,3 +71,13 @@ bookXmark.addEventListener("click", () => {
     // if active - no scroll
     body.classList.remove("no-scroll");
 });
+
+// scroll into view - destinations
+const exploreCta = document.querySelector('#exploreCta');
+
+exploreCta.addEventListener("click", () => {
+    // destination section
+    document.querySelector("#destinations").scrollIntoView({
+        behavior: 'smooth'
+    });
+});
