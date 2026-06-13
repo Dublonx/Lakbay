@@ -27,15 +27,15 @@ body {
 .top-cta {
     position: fixed;
     z-index: 1;
-    bottom: 40px;
+    bottom: 100px;
     right: 40px;
     outline: none;
     border: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     background-color: var(--c-button);
     border-radius: 50%;
     color: #fff;
@@ -145,6 +145,22 @@ form {
     border-radius: 4px;
     background-color: var(--c-button);
     color: whitesmoke;
+}
+
+/* chat bot */
+#chatMessage {
+    position: fixed;
+    z-index: 1;
+    bottom: 40px;
+    right: 40px;
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-button);
+    border-radius: 50%;
+    color: #fff;
 }
 
 /* variables */
