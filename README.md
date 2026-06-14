@@ -41,12 +41,7 @@ Lakbay/
 ├── style.css
 ```
 
-## Author
+## 🚀 Clone this Repository
 
-Name: **Jm Dūblon**
-
-Github: [@Dublonx](https://github.com/Dublonx)
-
----
-
-⭐ Leave a star if you like this project!
+```bash
+git clone https://github.com/Dublonx/Lakbay.git
