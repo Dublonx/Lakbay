@@ -81,3 +81,12 @@ exploreCta.addEventListener("click", () => {
         behavior: 'smooth'
     });
 });
+
+// scroll into view - contact
+const contactCta = document.querySelector('#contactCta');
+
+contactCta.addEventListener("click", () => {
+    document.querySelector('#contact').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
