@@ -90,3 +90,12 @@ contactCta.addEventListener("click", () => {
         behavior: 'smooth'
     });
 });
+
+// heart - popup modal
+const heart = document.querySelectorAll('.heartIcon');
+
+heart.forEach(hearts => {
+    hearts.addEventListener("click", () => {
+        console.log("Success!");
+    });
+});
