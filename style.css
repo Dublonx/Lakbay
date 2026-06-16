@@ -1096,7 +1096,7 @@ section {
 .top-cta {
     position: fixed;
     z-index: 1;
-    bottom: 100px;
+    bottom: 40px;
     right: 40px;
     outline: none;
     border: none;
@@ -1217,9 +1217,3 @@ form {
 }
 
 /* heart - popup modal */
-.heart-modal {
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-}
