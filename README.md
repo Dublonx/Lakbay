@@ -4,7 +4,7 @@ Every destination has a soul waiting to be discovered. At Lakbay, we are more th
 
 ## Screenshots
 
-![Project Preview](Assets/Screenshots/output.jpg)
+![Project Preview](Assets/Screenshots/final.png)
 
 ## Features
 
